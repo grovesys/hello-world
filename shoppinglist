@@ -1,0 +1,46 @@
+> None
+   print (grocerylist)
+eggs, bread, milk, carrots, lettuce
+=> None
+   myList = ["eggs, bread, milk, carrots, lettuce"]
+=> None
+   print(myList)
+['eggs, bread, milk, carrots, lettuce']
+=> None
+   print(myList(0))
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+TypeError: 'list' object is not callable
+
+   print(myList[0])
+eggs, bread, milk, carrots, lettuce
+=> None
+   myList = ["eggs", "bread", "milk", "carrots", "lettuce"]
+=> None
+   print(myList)
+['eggs', 'bread', 'milk', 'carrots', 'lettuce']
+=> None
+   print(myList[1])
+bread
+=> None
+   myList.append("tomatoes")
+=> None
+   print(myList)
+['eggs', 'bread', 'milk', 'carrots', 'lettuce', 'tomatoes']
+=> None
+   del (myList[2])
+=> None
+   print(myList)
+['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes']
+=> None
+   myList.append("milk[2]")
+=> None
+   print(myList)
+['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes', 'milk[2]']
+=> None
+   del (myList[5])
+=> None
+   print(myList)
+['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes']
+=> None
+   
