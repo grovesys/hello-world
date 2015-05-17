@@ -1,24 +1,23 @@
-> None
-   print (grocerylist)
-eggs, bread, milk, carrots, lettuce
+  grocerylist = "eggs, bread, milk, carrots, lettuce"
 => None
-   myList = ["eggs, bread, milk, carrots, lettuce"]
-=> None
-   print(myList)
-['eggs, bread, milk, carrots, lettuce']
-=> None
-   print(myList(0))
-Traceback (most recent call last):
-  File "python", line 1, in <module>
-TypeError: 'list' object is not callable
-
-   print(myList[0])
+   print(grocerylist)
 eggs, bread, milk, carrots, lettuce
 => None
    myList = ["eggs", "bread", "milk", "carrots", "lettuce"]
 => None
    print(myList)
 ['eggs', 'bread', 'milk', 'carrots', 'lettuce']
+=> None
+   print(myList[0])
+eggs
+=> None
+   print(myList[5])
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+IndexError: list index out of range
+
+   print(myList[4])
+lettuce
 => None
    print(myList[1])
 bread
@@ -28,19 +27,156 @@ bread
    print(myList)
 ['eggs', 'bread', 'milk', 'carrots', 'lettuce', 'tomatoes']
 => None
-   del (myList[2])
+   del myList[2]
 => None
    print(myList)
 ['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes']
 => None
-   myList.append("milk[2]")
+   myList.append("milk")
+=> None
+   intArray = [1,2,3,4]
+=> None
+   array = [1,2,3,"a","b","c",4,5]
+=> None
+   print(array)
+[1, 2, 3, 'a', 'b', 'c', 4, 5]
+=> None
+   print(array[4])
+b
+=> None
+   array.append("John")
+=> None
+   print(array)
+[1, 2, 3, 'a', 'b', 'c', 4, 5, 'John']
+=> None
+   movielist = ["Avengers","Thor","IronMan"]
+=> None
+   print(movielist)
+['Avengers', 'Thor', 'IronMan']
+=> None
+   movielist.append("Captain America")
+=> None
+   print(movuielist)
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+NameError: name 'movuielist' is not defined
+
+   print(movielist)
+['Avengers', 'Thor', 'IronMan', 'Captain America']
+=> None
+   del movielist[0]
+=> None
+   print(movielist)
+['Thor', 'IronMan', 'Captain America']
+=> None
+   movielist.append("Avengers Assemble", "Age of Ultron", "Hulk")
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+TypeError: append() takes exactly one argument (3 given)
+
+   movielist.append("Avengers Assemble")
+=> None
+   movielist.append("Captain America")
+=> None
+   movielist.append("Hulk")
+=> None
+   print(movielist)
+['Thor', 'IronMan', 'Captain America', 'Avengers Assemble', 'Captain America', 'Hulk']
+=> None
+   del movielist("Captain America")
+Traceback (most recent call last):
+  File "python", line 1
+SyntaxError: can't delete function call
+
+   del movielist("2")
+Traceback (most recent call last):
+  File "python", line 1
+SyntaxError: can't delete function call
+
+   del movielist["Captain America"]
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+TypeError: list indices must be integers, not str
+
+   del movielist[2]
+=> None
+   print(movielist)
+['Thor', 'IronMan', 'Avengers Assemble', 'Captain America', 'Hulk']
+=> None
+   movielist.append("Green Lantern")
+=> None
+   print(movielist)
+['Thor', 'IronMan', 'Avengers Assemble', 'Captain America', 'Hulk', 'Green Lantern']
+=> None
+   timestables = [1,2,3,4,5,6,7,8,9,10,11,12]
+=> None
+   
+   
+   
+   print timestables[1]
+Traceback (most recent call last):
+  File "python", line 1
+    print timestables[1]
+                    ^
+SyntaxError: Missing parentheses in call to 'print'
+
+   print(timestables[1])
+2
+=> None
+   timestables[1] * timestables[3]
+=> 8
+   print(timestables[3])
+4
+=> None
+   print(timestables[1])
+2
+=> None
+   timestables[11] * timestables[11]
+=> 144
+   dir()
+=> ['__builtins__', 'a', 'age', 'array', 'b', 'c', 'fred', 'grocerylist', 'i', 'intArray', 'j', 'location', 'movielist', 'myAge', 'myList', 'myString', 'name', 'newnumberofcoins', 'num', 'num2', 'numberofcoins', 'password', 'pwd', 'string', 'telephone', 'timestables', 'varCopyName', 'varName']
+   print(timestables)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+=> None
+   print(movielist)
+['Thor', 'IronMan', 'Avengers Assemble', 'Captain America', 'Hulk', 'Green Lantern']
 => None
    print(myList)
-['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes', 'milk[2]']
+['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes', 'milk']
 => None
-   del (myList[5])
+   myList.append("crisps")
+=> None
+   mylist.append("beer")
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+NameError: name 'mylist' is not defined
+
+   myList.append("beer")
 => None
    print(myList)
-['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes']
+['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes', 'milk', 'crisps', 'beer']
+=> None
+   del myList[7]
+=> None
+   print(myList)
+['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes', 'milk', 'crisps']
+=> None
+   print(groceries)
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+NameError: name 'groceries' is not defined
+
+   myList = groceries
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+NameError: name 'groceries' is not defined
+
+   groceries = myList
+=> None
+   print(groceries)
+['eggs', 'bread', 'carrots', 'lettuce', 'tomatoes', 'milk', 'crisps']
+=> None
+   print(movielist[3])
+Captain America
 => None
    
