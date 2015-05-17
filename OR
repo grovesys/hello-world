@@ -1,0 +1,6 @@
+day = "Tuesday"
+age = 32
+if age == 33 or day == "Tuesday":
+    print("Today is your lucky day")
+else:
+    print("Today is NOT your lucky day")
